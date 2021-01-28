@@ -12,8 +12,8 @@ Tunnel.bindInterface("henrique_arsenal",henrique)
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- PREPARE
 -----------------------------------------------------------------------------------------------------------------------------------------
-vRP._prepare("vrp/count_arma","SELECT quantidade  FROM vrp_estoquearsenal WHERE modelo = @modelo  ")
-vRP._prepare("vrp/update_estoque","UPDATE vrp_estoquearsenal SET quantidade = @quantidade WHERE user_id = @user_id and modelo = @modelo")
+vRP._prepare("vRP/count_arma","SELECT quantidade  FROM vrp_estoquearsenal WHERE modelo = @modelo  ")
+vRP._prepare("vRP/update_estoque","UPDATE vrp_estoquearsenal SET quantidade = @quantidade WHERE user_id = @user_id and modelo = @modelo")
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 -- CÓDIGO
